@@ -11,7 +11,7 @@ addons:
     coverity_scan:
         project:
             name: FragJage/SimpleSock
-         notification_email: inscrip.jage@free.fr
+        notification_email: inscrip.jage@free.fr
         build_command_prepend: "cmake ."
         build_command: "make"
         branch_pattern: coverity_scan
